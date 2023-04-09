@@ -1,0 +1,319 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #33e95e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #004080;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+  }
+  
+  nav a:hover {
+    background-color: #0066cc;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 1rem;
+  }
+  
+  main {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Page-Specific Styles */
+  
+  /* Donors Page */
+  
+  #donors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  #donors-table th,
+  #donors-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #donors-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #donors-search {
+    margin-bottom: 1rem;
+  }
+  
+  /* Volunteers Page */
+  
+  #volunteers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  #volunteers-table th,
+  #volunteers-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #volunteers-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #volunteers-search {
+    margin-bottom: 1rem;
+  }
+  
+  /* Events Page */
+  
+  #events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  #events-table th,
+  #events-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #events-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #events-search {
+    margin-bottom: 1rem;
+  }
+  
+  /* Donations Page */
+  
+  #donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  #donations-table th,
+  #donations-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  #donations-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Volunteer Events Page */
+
+#volunteer-events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #volunteer-events-table th,
+    #volunteer-events-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #volunteer-events-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #volunteer-events-search {
+    margin-bottom: 1rem;
+    }
+    
+    /* Expenses Page */
+    
+    #expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #expenses-table th,
+    #expenses-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #expenses-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #expenses-search {
+    margin-bottom: 1rem;
+    }
+    
+    /* Staff Page */
+    
+    #staff-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #staff-table th,
+    #staff-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #staff-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #staff-search {
+    margin-bottom: 1rem;
+    }
+    
+    /* Works For Page */
+    
+    #works-for-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #works-for-table th,
+    #works-for-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #works-for-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #works-for-search {
+    margin-bottom: 1rem;
+    }
+    
+    /* Need Page */
+    
+    #need-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #need-table th,
+    #need-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #need-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #need-search {
+    margin-bottom: 1rem;
+    }
+    
+    /* Attends Page */
+    
+    #attends-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    }
+    
+    #attends-table th,
+    #attends-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    }
+    
+    #attends-table th {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    #attends-search {
+    margin-bottom: 1rem;
+    }
